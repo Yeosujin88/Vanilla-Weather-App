@@ -13,16 +13,16 @@
 
   <body><div class="weather-app-container">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..." required class="search-form-input">
-            <input type="submit" value="Search" class="search-form-button">
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input" id="search-form-input">
+            <input type="submit" value="Search" class="search-form-button" id="search-form-button">
         </form>
     </header>
     <main>
         
 <div class="weather-app-data">
         <div>
-        <h1>Paris</h1>
+         <h1 class="weather-city" id="city">Paris</h1>
        
         <p><div class="weather-details">Monday 23:17, overcast clouds
         </br>
@@ -48,5 +48,6 @@
     </footer>
     <script src="app.js"></script>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
