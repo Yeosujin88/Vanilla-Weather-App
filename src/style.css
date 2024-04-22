@@ -52,14 +52,15 @@ a {
 }
 
 .weather-icon {
-  font-size:42px;
-  padding:20px 0;
+
+  height:100px;
 }
 .weather-temperature {
   font-size:50px;
   font-weight:800px;
 padding:20px 0;}
-.weather-temperature-unit {padding:30px 0 0 5px;}
+.weather-temperature-unit {line-height:1;
+  padding:30px 0 0 5px;}
 .weather-value {
   display:flex; margin-left:220px;
   
@@ -67,4 +68,4 @@ padding:20px 0;}
 .weather-details {
   color:#878787;
 }
-.weather-value-details {color:#F65282;}
+#humidity, #wind-speed{color:#F65282;}
