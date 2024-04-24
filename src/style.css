@@ -95,10 +95,14 @@ a {
 }
 .weather-forecast-temperature-max {
   font-size: 15px;
+  font-weight:bolder;
+  color: #f65282
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
+  font-weight:bolder;
   font-size: 15px;
+  color: #f65282
 }
 .weather-forecast-icon {width:70px; height:70px; display:block; margin:0 auto;
   
